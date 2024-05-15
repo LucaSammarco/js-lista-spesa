@@ -19,7 +19,7 @@ while (sum < fullList) {
 
     const createLi = document.createElement('li');
 
-    createLi.innerHTML = ("blabla");
+    createLi.innerHTML = (listaDellaSpesa[sum]);
 
     ulSelector.appendChild(createLi);
 
