@@ -40,4 +40,10 @@ const listaDellaSpesa = ['Pollo', 'Pane', 'Mele', 'Olio', 'Latte', 'Pomodori', '
 
 
 
-ulSelector = document.querySelector("ul")
+let ulSelector = document.querySelector("ul");
+
+const createLi = document.createElement('li');
+
+createLi.innerHTML = ("blabla");
+
+ulSelector.appendChild(createLi);
